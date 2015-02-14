@@ -2,7 +2,7 @@
 var x = document.getElementById("form_sample");
 
 var createform = document.createElement('form'); // Create New Element form
-	createform.setAttribute("action", "");        // Setting action Attribute on form
+	createform.setAttribute("action", "http://127.0.0.1:3000");        // Setting action Attribute on form
 	createform.setAttribute("method", "post");  // Setting method Attribute on form
 	x.appendChild(createform);
 
@@ -42,6 +42,7 @@ var emailelement = document.createElement('input'); // Create input field for em
 	emailelement.setAttribute("name", "demail");
 	createform.appendChild(emailelement);
 
+	
 var emailbreak = document.createElement('br');
 	createform.appendChild(emailbreak);
 
@@ -56,6 +57,16 @@ var texareaelement = document.createElement('textarea');
 
 var messagebreak = document.createElement('br');
 	createform.appendChild(messagebreak);
+	
+var d = new Date ();
+var thisday = d.toLocaleString();
+
+var date = document.createElement('input');
+	date.setAttribute("type", "text");
+	date.setAttribute("name", "ddate");
+	date.setAttribute("value", thisday);
+	date.setAttribute("id", "dateTime")
+	createform.appendChild(date);
 
 // Append Submit Button
 var submitelement = document.createElement('input'); 
@@ -63,3 +74,6 @@ var submitelement = document.createElement('input');
 	submitelement.setAttribute("name", "dsubmit");
 	submitelement.setAttribute("value", "Submit");
 	createform.appendChild(submitelement);
+	
+
+

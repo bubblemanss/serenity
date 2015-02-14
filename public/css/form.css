@@ -78,6 +78,9 @@ cursor: pointer;
 font-family: 'Ubuntu', sans-serif;
 }
 
+#dateTime{
+	display: none;
+}
 
 /* -------------------------------------
     CSS for sidebar (optional) 
