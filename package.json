@@ -1,0 +1,22 @@
+{
+  "name": "deltahacks",
+  "version": "1.0.0",
+  "description": "a website to help people with anxiety issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l3ubbleman/deltahacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l3ubbleman/deltahacks/issues"
+  },
+  "homepage": "https://github.com/l3ubbleman/deltahacks",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}

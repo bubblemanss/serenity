@@ -13,6 +13,10 @@ var heading = document.createElement('h2'); // Heading of form
 var line = document.createElement('hr');  //giving horizontal row after heading
 	createform.appendChild(line);
 
+var description = document.createElement('p');
+	createform.appendChild(description);
+	description.innerHTML='Welcome to SafeSpace, a place to post personal and private concerns and anxieties!';
+
 var linebreak = document.createElement('br');
 	createform.appendChild(linebreak);
 

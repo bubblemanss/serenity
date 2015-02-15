@@ -1,6 +1,16 @@
 /* below line is write to use google font online  */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
+html, body, .jumbotron {
+	margin:0;
+}
+
+.jumbotron {
+	background: url('../images/background.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
 div#main{
 width: 830px;
 height: 650px;
@@ -9,6 +19,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 div#form_sample{
+background-color: white;
 text-align:center;
 border: 1px solid #ccc;
 width: 300px;
@@ -25,6 +36,10 @@ margin-top:40px;
 
 hr{
 margin-top:-5px;
+}
+
+#main p {
+	margin-bottom: 0;
 }
 
 label{
