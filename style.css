@@ -1,0 +1,123 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  font-family:  Oswald;
+}
+
+/* Initial menu */
+.menu {
+  background: none;
+  right: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  /*background: url('images/beach_background.jpg');*/
+  height: 1000px;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover; 
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  /*border-bottom: 1px solid #636366; */
+  /*font-family: 'Oswald', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  font-weight:  100;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon-close {
+  color: #fff;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-top: 10px;
+  float: right;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+}
+
+.icon-menu i {
+    float: right;
+    margin-right: 5px;
+}
+
+
+.welcome {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none; 
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  padding-top: 10px;
+}
+
+.blurb {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding:  100px;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid white;
+}
+
+.blurb ol {
+  text-align: center;
+  list-style-position:inside;
+}
+
+.blurb a:link {
+    text-decoration: none;
+}
+
+.blurb a:visited {
+    text-decoration: none;
+}
+
+.blurb a:hover {
+    text-decoration: underline;
+}
+
+.blurb a:active {
+    text-decoration: underline;
+}
+
