@@ -1,59 +1,16 @@
-# deltahacks
-
-#Problems
-
-1) Everyone has problems and some are embarrassing, making it hard for them to talk about their issues and get the necessary feedback that they need. 
-
-A forum where users can sign up create forums for people to make posts about their issues and get the feedback they want/need while stay anonyomous.
-
-
-2) Food banks constantly need cans and other foods. 
-
-People go to the grocery store everyday, why not create and app that allows food banks to post whatever food they need for that weel (peanut butter, etc) and then people can access this information via an app when theyre shopping for food
-
-Make an easy way for people to donate a specified amount of money everytime they go to the grocery store (at the POS system)
-
-
-3) In Tanzania, there are very little physicians available for the public (1% per 10000 people)
-
-Create a web app that can educate people with basic healthcare, instructional videos, lectures, etc.
-
-
-4) lonely ass people with no one to hang out
-
-A place solely meant for them to meet up and socialize with each other, not online, but in person.
-
-
-5)POVERTY 
-
-app allows people to donate food to other at ppl and stuff
-
-
-6) Can't find parking
-
-parking assistance 
-
-
-7) anxiety issues 
-
-safe space
-
-
-8) Stuck with no where to go, rain or homeless
-
-an app that locates the nearest shelter in the area
-
-
-9)need more help in hospitals to take care of the sick people
-
-app the locates volunteer positions for hospitals and whatnot 
-
-
-10)Cold hands
-
-overheat phones to keep hands warm
-
-
-11) Out of toilet paper, what to do?!
-
-Text someone...
+# Serenity
+Serenity is a web app that presents a method for helping people cope with mental disorders, such as anxiety disorder, stress and depression.
+<br/>
+<br/>
+<img src="screenshot1.jpg" width="400px" height="200px"/>
+<img src="screenshot2.jpg" width="400px" height="200px"/>
+<img src="screenshot3.jpg" width="400px" height="200px"/>
+<img src="screenshot4.jpg" width="400px" height="200px"/>
+<br/><br/>
+The above images are custom virtual worlds we created. 
+By using the oculus, or any other VR compatible with Unity, to render a virtual world for the user, they are able to calm themselves done. Then by following the step-by-step instructions on our site, they can do a self-analysis using standard questions therapists commonly ask. Your entry is then submitted to our server for you to keep a log of so you can view your progress.
+<br/>
+Below, are screenshots of the webpages.
+<br/><br/>
+<img src="Screen Shot 2015-03-14 at 1.15.00 PM.png" width="400px" height="250px"/>
+<img src="screenshot-webpage.png" width="400px" height="250px"/>
